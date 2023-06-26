@@ -17,11 +17,44 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+.background-front {
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-image: url("https://i.ibb.co/7Nwks2M/products-background.jpg");
+}
+
+.background-front-secondary {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.ibb.co/fqFq5PQ/no-repeat.jpg");
+}
+
+.background-front-section-third {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.ibb.co/N6G8qvk/about-us.png");
+}
+
+.background-card-wrapper{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.ibb.co/qYK39Zj/backdrop-card.png");
+}
+
+.background-bottom-img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://i.ibb.co/1sVNmC2/bottom-base-img.png");
+  opacity: 0.85;
 }
